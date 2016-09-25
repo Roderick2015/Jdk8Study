@@ -11,7 +11,7 @@ public class HashMapTest {
 
 	@Before
 	public void setUp() throws Exception {
-		hashMap = new HashMap<>(20);
+		hashMap = new HashMap<>(32);
 	}
 
 	@After
